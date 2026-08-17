@@ -1,6 +1,6 @@
 import { onDestroy } from 'svelte'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { TanStackDevtoolsSvelteAdapter } from '../src/devtools.svelte'
+import { TanStackDevtoolsSvelteAdapter } from '../src/devtools'
 import type { Component } from 'svelte'
 import type { TanStackDevtoolsPlugin } from '@tanstack/devtools'
 
